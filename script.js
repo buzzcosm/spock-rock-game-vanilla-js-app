@@ -1,4 +1,4 @@
-import { startConfetti, stopConfetti, removeConfetti } from './confetti.js';
+import { startConfetti, stopConfetti, removeConfetti } from './modules/confetti.js';
 
 const playerScoreEl = document.getElementById("playerScore");
 const playerChoiceEl = document.getElementById("playerChoice");
@@ -109,6 +109,12 @@ function updateScore(playerChoice) {
     console.debug(choice.defeats.indexOf(computerChoice));
 
     if (choice.defeats.indexOf(computerChoice) > -1) {
+      // import('./modules/confetti.js').then((module) => {
+      //   module.startConfetti();
+      //   resultText.textContent = "You Won!";
+      //   playerScoreNumber++;
+      //   playerScoreEl.textContent = playerScoreNumber;
+      // });
       startConfetti();
       resultText.textContent = "You Won!";
       playerScoreNumber++;
