@@ -6,6 +6,9 @@ Exercise Project of `ZTM` Cours on Udemy ([JavaScript Web Projects: 20 Projects 
 
 Spock Rock Game programmed in vanilla-js.
 
+> [!NOTE]  
+> The game does not load properly on iOS in browser.
+
 ## Useful references
 
 - [W3Schools - Switch](https://www.w3schools.com/js/js_switch.asp)
@@ -14,3 +17,4 @@ Spock Rock Game programmed in vanilla-js.
 - [Mozilla - ES Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
 - [JS Modules History Article](https://www.sitepoint.com/understanding-es6-modules-via-their-history/)
 - [JS Module History GitHub](https://gist.github.com/branneman/558ef3a37ffd58ea004e00db5b201677)
+- [GitHub - Markdown: An option to highlight a "Note" and "Warning" using blockquote (Beta)](https://github.com/orgs/community/discussions/16925)
